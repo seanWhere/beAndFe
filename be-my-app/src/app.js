@@ -12,7 +12,7 @@ app.use('/books', booksRouter);
 
 mongoose.connect('mongodb://localhost:27017/admin',
     (event) => {
-        console.log('Connect to database')
+        console.log('Connect to database');
     })
     .catch((err) => console.log(err));
 
